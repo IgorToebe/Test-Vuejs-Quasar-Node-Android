@@ -1,0 +1,13 @@
+{
+  "name": "quasar_myapp",
+  "version": "0.0.1",
+  "description": "Quasar App Project",
+  "author": "Igor Toebe Lopes Farias <igor.toebe@makode.com.br>",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^7.4.2",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  }
+}
