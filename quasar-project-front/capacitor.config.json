@@ -1,5 +1,31 @@
 {
   "appId": "com.desko.makode",
   "appName": "Desko",
-  "webDir": "dist/spa"
+  "webDir": "dist/spa",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "Camera": {
+      "permissions": ["camera", "photos"]
+    },
+    "Geolocation": {
+      "permissions": ["location"]
+    },
+    "Device": {
+      "permissions": ["device"]
+    },
+    "Network": {
+      "permissions": ["network"]
+    },
+    "Haptics": {
+      "permissions": ["vibrate"]
+    },
+    "Toast": {
+      "permissions": ["toast"]
+    },
+    "Filesystem": {
+      "permissions": ["storage"]
+    }
+  }
 }

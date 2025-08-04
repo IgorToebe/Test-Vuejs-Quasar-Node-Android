@@ -17,6 +17,20 @@ node_modules
 /src-capacitor/www
 /src-capacitor/node_modules
 
+# Android build directories
+/android/app/build
+/android/build
+/android/.gradle
+/src-capacitor/android/app/build
+/src-capacitor/android/build
+/src-capacitor/android/.gradle
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.log
+
 # Log files
 npm-debug.log*
 yarn-debug.log*
